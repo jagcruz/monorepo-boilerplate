@@ -1,0 +1,11 @@
+coverage
+
+public
+dist
+
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+.eslintignore
+.prettieriignore
+.gitignore
