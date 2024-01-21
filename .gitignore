@@ -11,6 +11,8 @@ lib
 dist
 build
 
+coverage
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
