@@ -18,6 +18,7 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@types/node": "^20.11.5",
     "@vitest/coverage-v8": "^1.2.1",
     "@vitest/ui": "^1.2.1",
     "typescript": "^5.2.2",
