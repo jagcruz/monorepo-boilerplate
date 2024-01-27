@@ -1,0 +1,14 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "lint": {},
+    "test": {},
+    "test:watch": { "cache": false },
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**"] },
+    "@jagcruz/app-web#dev": {
+      "dependsOn": ["@jagcruz/package-common#build"],
+      "cache": false,
+      "persistent": true
+    }
+  }
+}

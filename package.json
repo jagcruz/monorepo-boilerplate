@@ -1,5 +1,5 @@
 {
-  "name": "@jagc/pnp-monorepo-boilerplate",
+  "name": "@jagcruz/pnp-monorepo-boilerplate",
   "version": "0.0.0",
   "description": "Boilerplate for a monorepo using PNPM, TypeScript and React",
   "keywords": [
@@ -24,11 +24,14 @@
     "prepare": "husky install",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "pkg:common": "pnpm --filter @jagc/package-common",
-    "app:web": "pnpm --filter @jagc/app-web",
-    "dev": "run-p \"common dev\" \"app:web dev\"",
+    "pkg-common": "pnpm --filter @jagcruz/package-common",
+    "app-web": "pnpm --filter @jagcruz/app-web",
+    "dev:web": "run-p \"pkg:common dev\" \"app:web dev\"",
+    "dev": "turbo run @jagcruz/app-web#dev",
+    "build": "turbo run build",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "test:watch": "turbo run test:watch"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
@@ -45,6 +48,7 @@
     "lint-staged": "^15.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.2.4",
+    "turbo": "^1.11.3",
     "vitest": "^1.2.1"
   },
   "lint-staged": {

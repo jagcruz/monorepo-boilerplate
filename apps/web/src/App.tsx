@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { isBlank, get } from '@jagc/package-common';
+import { isBlank, get } from '@jagcruz/package-common';
 
 // eslint-disable-next-line import/no-unresolved
 import viteLogo from '/vite.svg';
