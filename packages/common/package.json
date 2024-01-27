@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "@jagc/package-common",
   "version": "0.0.0",
   "private": true,
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/common"
   },
   "type": "module",
-  "main": "./dist/common.js",
+  "main": "./dist/package-common.js",
   "types": "./dist/main.d.ts",
   "scripts": {
     "dev": "tsc && vite build --watch",

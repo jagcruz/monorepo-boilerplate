@@ -21,11 +21,11 @@
   },
   "type": "module",
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "prepare": "husky install",
-    "common": "pnpm --filter common",
-    "app:web": "pnpm --filter web",
+    "pkg:common": "pnpm --filter @jagc/package-common",
+    "app:web": "pnpm --filter @jagc/app-web",
     "dev": "run-p \"common dev\" \"app:web dev\"",
     "test": "vitest",
     "test:ui": "vitest --ui"
