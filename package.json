@@ -10,10 +10,10 @@
   ],
   "license": "MIT",
   "private": true,
-  "homepage": "https://github.com/jagcruz/pnp-monorepo-boilerplate#readme",
-  "repository": "github:jagcruz/pnp-monorepo-boilerplate",
+  "homepage": "https://github.com/jagcruz/monorepo-boilerplate#readme",
+  "repository": "github:jagcruz/monorepo-boilerplate",
   "bugs": {
-    "url": "https://github.com/jagcruz/pnp-monorepo-boilerplate/issues"
+    "url": "https://github.com/jagcruz/monorepo-boilerplate/issues"
   },
   "author": {
     "name": "Jaime Alan Gutiérrez Cruz",
