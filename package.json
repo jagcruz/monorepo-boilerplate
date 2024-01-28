@@ -1,5 +1,5 @@
 {
-  "name": "@jagcruz/pnp-monorepo-boilerplate",
+  "name": "@jagcruz/monorepo-boilerplate",
   "version": "0.0.0",
   "description": "Boilerplate for a monorepo using PNPM, TypeScript and React",
   "keywords": [
