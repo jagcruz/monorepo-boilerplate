@@ -8,7 +8,7 @@
     "typescript",
     "react"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "homepage": "https://github.com/jagcruz/pnp-monorepo-boilerplate#readme",
   "repository": "github:jagcruz/pnp-monorepo-boilerplate",
