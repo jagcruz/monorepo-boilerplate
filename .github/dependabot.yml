@@ -10,3 +10,8 @@ updates:
      target-branch: "master"
      labels:
         - "dependencies"
+     assignees:
+        - "jagcruz"
+     reviewers:
+        - "jagcruz"
+     
